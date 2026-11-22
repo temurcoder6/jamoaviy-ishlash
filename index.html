@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    header {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 14px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      gap: 28px;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      font-size: 15px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    .btn {
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 10px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #7dd3fc;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">JAMOA</a>
+
+    <nav>
+      <a href="#">Bosh sahifa</a>
+      <a href="#">Loyihalar</a>
+      <a href="#">Jamoa</a>
+      <a href="#">Aloqa</a>
+    </nav>
+
+    <a href="#" class="btn">Kirish</a>
+  </header>
+
+</body>
+</html>
